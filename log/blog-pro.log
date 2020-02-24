@@ -1,0 +1,524 @@
+2020-01-23 13:46:20.412  INFO 16776 --- [restartedMain] com.lsc.blog.BlogApplication             : Starting BlogApplication on LSC with PID 16776 (E:\code\java\blog\target\classes started by 26683 in E:\code\java\blog)
+2020-01-23 13:46:20.417  INFO 16776 --- [restartedMain] com.lsc.blog.BlogApplication             : The following profiles are active: pro
+2020-01-23 13:46:22.658  WARN 16776 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-23 13:46:23.804  WARN 16776 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-23 13:46:24.656  INFO 16776 --- [restartedMain] com.lsc.blog.BlogApplication             : Started BlogApplication in 4.583 seconds (JVM running for 5.407)
+2020-01-23 13:46:32.322  INFO 16776 --- [http-nio-8080-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-23 13:46:32.393  WARN 16776 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 13:46:32.403  WARN 16776 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 13:46:32.407  INFO 16776 --- [http-nio-8080-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 13:46:32.408  INFO 16776 --- [http-nio-8080-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-01-23 13:46:33.247  INFO 16776 --- [http-nio-8080-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8080/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 13:46:33.251  INFO 16776 --- [http-nio-8080-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 13:46:33.252  INFO 16776 --- [http-nio-8080-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 13:46:41.473  WARN 16776 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [173] milliseconds.
+2020-01-23 14:01:11.845  INFO 7240 --- [main] com.lsc.blog.BlogApplicationTests        : Starting BlogApplicationTests on LSC with PID 7240 (started by 26683 in E:\code\java\blog)
+2020-01-23 14:01:11.851  INFO 7240 --- [main] com.lsc.blog.BlogApplicationTests        : The following profiles are active: pro
+2020-01-23 14:01:14.066  WARN 7240 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-23 14:01:15.961  WARN 7240 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-23 14:01:16.672  INFO 7240 --- [main] com.lsc.blog.BlogApplicationTests        : Started BlogApplicationTests in 5.165 seconds (JVM running for 5.951)
+2020-01-23 14:13:34.432  INFO 15304 --- [main] com.lsc.blog.BlogApplicationTests        : Starting BlogApplicationTests on LSC with PID 15304 (started by 26683 in E:\code\java\blog)
+2020-01-23 14:13:34.433  INFO 15304 --- [main] com.lsc.blog.BlogApplicationTests        : The following profiles are active: pro
+2020-01-23 14:13:36.092  WARN 15304 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-23 14:13:38.004  WARN 15304 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-23 14:13:38.702  INFO 15304 --- [main] com.lsc.blog.BlogApplicationTests        : Started BlogApplicationTests in 4.616 seconds (JVM running for 5.382)
+2020-01-23 14:22:54.911  INFO 17324 --- [restartedMain] com.lsc.blog.BlogApplication             : Starting BlogApplication on LSC with PID 17324 (E:\code\java\blog\target\classes started by 26683 in E:\code\java\blog)
+2020-01-23 14:22:54.913  INFO 17324 --- [restartedMain] com.lsc.blog.BlogApplication             : The following profiles are active: pro
+2020-01-23 14:22:56.394  WARN 17324 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-23 14:22:57.543  WARN 17324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-23 14:22:58.099  INFO 17324 --- [restartedMain] com.lsc.blog.BlogApplication             : Started BlogApplication in 3.504 seconds (JVM running for 4.288)
+2020-01-23 14:23:38.167  INFO 17324 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-23 14:23:38.233  WARN 17324 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 14:23:38.242  WARN 17324 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 14:23:38.246  INFO 17324 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:23:38.247  INFO 17324 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-01-23 14:23:38.861  INFO 17324 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:23:38.865  INFO 17324 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:23:38.865  INFO 17324 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:23:40.431  INFO 17324 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.AboutShowController.about', args=[]}
+2020-01-23 14:23:40.433  INFO 17324 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:23:40.433  INFO 17324 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Result:{}about
+2020-01-23 14:23:40.677  INFO 17324 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:23:40.681  INFO 17324 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:23:40.681  INFO 17324 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:24:07.842  INFO 17324 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.AboutShowController.about', args=[]}
+2020-01-23 14:24:07.843  INFO 17324 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:24:07.843  INFO 17324 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Result:{}about
+2020-01-23 14:24:08.120  INFO 17324 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:24:08.128  INFO 17324 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:24:08.129  INFO 17324 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:24:57.055  INFO 17324 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.AboutShowController.about', args=[]}
+2020-01-23 14:24:57.057  INFO 17324 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:24:57.057  INFO 17324 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Result:{}about
+2020-01-23 14:24:57.336  INFO 17324 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:24:57.342  INFO 17324 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:24:57.342  INFO 17324 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:38:44.498  INFO 11412 --- [restartedMain] com.lsc.blog.BlogApplication             : Starting BlogApplication on LSC with PID 11412 (E:\code\java\blog\target\classes started by 26683 in E:\code\java\blog)
+2020-01-23 14:38:44.499  INFO 11412 --- [restartedMain] com.lsc.blog.BlogApplication             : The following profiles are active: pro
+2020-01-23 14:38:45.732  WARN 11412 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-23 14:38:46.724  WARN 11412 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-23 14:38:47.198  INFO 11412 --- [restartedMain] com.lsc.blog.BlogApplication             : Started BlogApplication in 2.955 seconds (JVM running for 3.607)
+2020-01-23 14:39:00.416  INFO 11412 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.AboutShowController.about', args=[]}
+2020-01-23 14:39:00.423  INFO 11412 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:39:00.423  INFO 11412 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}about
+2020-01-23 14:39:00.672 ERROR 11412 --- [http-nio-8081-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8081-exec-1] Exception processing template "about": An error happened during template parsing (template: "class path resource [templates/about.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/about.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: org.attoparser.ParseException: Could not parse as expression: "https://github.com/LSC333" (template: "about" - line 67, col 20)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "https://github.com/LSC333" (template: "about" - line 67, col 20)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 50 common frames omitted
+
+2020-01-23 14:39:00.675 ERROR 11412 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/about.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "https://github.com/LSC333" (template: "about" - line 67, col 20)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2020-01-23 14:39:29.012  INFO 11412 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.AboutShowController.about', args=[]}
+2020-01-23 14:39:29.012  INFO 11412 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:39:29.012  INFO 11412 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}about
+2020-01-23 14:39:29.312  INFO 11412 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:39:29.397  INFO 11412 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:39:29.398  INFO 11412 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:39:50.734  INFO 11412 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.AboutShowController.about', args=[]}
+2020-01-23 14:39:50.734  INFO 11412 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:39:50.734  INFO 11412 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}about
+2020-01-23 14:39:51.014  INFO 11412 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:39:51.023  INFO 11412 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:39:51.024  INFO 11412 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:40:16.812  INFO 11412 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-01-23 14:40:16.857  INFO 11412 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:40:16.858  INFO 11412 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}archives
+2020-01-23 14:40:17.146  INFO 11412 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:40:17.150  INFO 11412 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:40:17.150  INFO 11412 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:40:20.727  INFO 11412 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-01-23 14:40:20.733  WARN 11412 --- [http-nio-8081-exec-10] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 14:40:20.762  INFO 11412 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:40:20.762  INFO 11412 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Result:{}types
+2020-01-23 14:40:21.035  INFO 11412 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:40:21.039  INFO 11412 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:40:21.040  INFO 11412 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:40:22.154  INFO 11412 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 14:40:22.208  INFO 11412 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:40:22.209  INFO 11412 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 14:40:22.528  INFO 11412 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:40:22.532  INFO 11412 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:40:22.532  INFO 11412 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:40:22.618  INFO 11412 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 14:40:22.658  INFO 11412 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:40:22.659  INFO 11412 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 14:41:04.752  INFO 14916 --- [restartedMain] com.lsc.blog.BlogApplication             : Starting BlogApplication on LSC with PID 14916 (E:\code\java\blog\target\classes started by 26683 in E:\code\java\blog)
+2020-01-23 14:41:04.754  INFO 14916 --- [restartedMain] com.lsc.blog.BlogApplication             : The following profiles are active: pro
+2020-01-23 14:41:06.206  WARN 14916 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-23 14:41:07.310  WARN 14916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-23 14:41:07.823  INFO 14916 --- [restartedMain] com.lsc.blog.BlogApplication             : Started BlogApplication in 3.385 seconds (JVM running for 4.129)
+2020-01-23 14:41:22.158  INFO 14916 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-23 14:41:22.238  WARN 14916 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 14:41:22.246  WARN 14916 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 14:41:22.254  INFO 14916 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:41:22.254  INFO 14916 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-01-23 14:41:22.882  INFO 14916 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:41:22.889  INFO 14916 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:41:22.889  INFO 14916 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:41:23.892  INFO 14916 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-23 14:41:23.908  INFO 14916 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:41:23.908  INFO 14916 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-01-23 14:41:24.258  INFO 14916 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:41:24.262  INFO 14916 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:41:24.262  INFO 14916 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:41:25.659  INFO 14916 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 14:41:25.700  INFO 14916 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:41:25.701  INFO 14916 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 14:41:25.969  INFO 14916 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:41:25.973  INFO 14916 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:41:25.973  INFO 14916 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:41:26.039  INFO 14916 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 14:41:26.067  INFO 14916 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:41:26.067  INFO 14916 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 14:42:42.378  INFO 13596 --- [restartedMain] com.lsc.blog.BlogApplication             : Starting BlogApplication on LSC with PID 13596 (E:\code\java\blog\target\classes started by 26683 in E:\code\java\blog)
+2020-01-23 14:42:42.380  INFO 13596 --- [restartedMain] com.lsc.blog.BlogApplication             : The following profiles are active: pro
+2020-01-23 14:42:43.922  WARN 13596 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-23 14:42:45.101  WARN 13596 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-23 14:42:45.636  INFO 13596 --- [restartedMain] com.lsc.blog.BlogApplication             : Started BlogApplication in 3.573 seconds (JVM running for 4.415)
+2020-01-23 14:43:04.531  INFO 13596 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-01-23 14:43:04.541  WARN 13596 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 14:43:04.649  INFO 13596 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:43:04.649  INFO 13596 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}types
+2020-01-23 14:43:05.265  INFO 13596 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:43:05.272  INFO 13596 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:43:05.272  INFO 13596 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:43:07.292  INFO 13596 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 14:43:07.337  INFO 13596 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:43:07.337  INFO 13596 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 14:43:07.623  INFO 13596 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:43:07.629  INFO 13596 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:43:07.630  INFO 13596 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:43:07.703  INFO 13596 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 14:43:07.738  INFO 13596 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:43:07.739  INFO 13596 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 14:46:37.608  INFO 13596 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 14:46:37.621  INFO 13596 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:46:37.622  INFO 13596 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 14:46:37.991  INFO 13596 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:46:37.997  INFO 13596 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:46:37.997  INFO 13596 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:46:38.092  INFO 13596 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 14:46:38.102  INFO 13596 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:46:38.102  INFO 13596 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 14:48:16.493  INFO 13596 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 14:48:16.503  INFO 13596 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:48:16.503  INFO 13596 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 14:48:16.849  INFO 13596 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:48:16.853  INFO 13596 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:48:16.854  INFO 13596 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:48:16.949  INFO 13596 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 14:48:16.961  INFO 13596 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:48:16.961  INFO 13596 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 14:49:10.342  INFO 13596 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 14:49:10.355  INFO 13596 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:49:10.355  INFO 13596 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 14:49:10.635  INFO 13596 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:49:10.638  INFO 13596 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:49:10.638  INFO 13596 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:49:10.727  INFO 13596 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 14:49:10.739  INFO 13596 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:49:10.739  INFO 13596 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 14:49:24.073  INFO 13596 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 14:49:24.112  INFO 13596 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:49:24.112  INFO 13596 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 14:49:24.407  INFO 13596 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:49:24.412  INFO 13596 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:49:24.412  INFO 13596 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:49:24.490  INFO 13596 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 14:49:24.497  INFO 13596 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:49:24.498  INFO 13596 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 14:51:35.321  INFO 3140 --- [restartedMain] com.lsc.blog.BlogApplication             : Starting BlogApplication on LSC with PID 3140 (E:\code\java\blog\target\classes started by 26683 in E:\code\java\blog)
+2020-01-23 14:51:35.325  INFO 3140 --- [restartedMain] com.lsc.blog.BlogApplication             : The following profiles are active: pro
+2020-01-23 14:51:37.206  WARN 3140 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-23 14:51:38.483  WARN 3140 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-23 14:51:39.097  INFO 3140 --- [restartedMain] com.lsc.blog.BlogApplication             : Started BlogApplication in 4.171 seconds (JVM running for 5.025)
+2020-01-23 14:51:46.604  INFO 3140 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-23 14:51:46.671  WARN 3140 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 14:51:46.680  WARN 3140 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 14:51:46.685  INFO 3140 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:51:46.685  INFO 3140 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-01-23 14:51:47.305  INFO 3140 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:51:47.309  INFO 3140 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:51:47.309  INFO 3140 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:51:48.486  INFO 3140 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 14:51:48.535  INFO 3140 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:51:48.535  INFO 3140 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 14:51:48.841  INFO 3140 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:51:48.846  INFO 3140 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:51:48.847  INFO 3140 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:51:48.935  INFO 3140 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 14:51:48.966  INFO 3140 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:51:48.966  INFO 3140 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 14:53:54.508  INFO 15640 --- [restartedMain] com.lsc.blog.BlogApplication             : Starting BlogApplication on LSC with PID 15640 (E:\code\java\blog\target\classes started by 26683 in E:\code\java\blog)
+2020-01-23 14:53:54.513  INFO 15640 --- [restartedMain] com.lsc.blog.BlogApplication             : The following profiles are active: pro
+2020-01-23 14:53:56.236  WARN 15640 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-23 14:53:57.517  WARN 15640 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-23 14:53:58.115  INFO 15640 --- [restartedMain] com.lsc.blog.BlogApplication             : Started BlogApplication in 4.041 seconds (JVM running for 4.889)
+2020-01-23 14:54:12.353  INFO 15640 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-23 14:54:12.416  WARN 15640 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 14:54:12.426  WARN 15640 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 14:54:12.433  INFO 15640 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:54:12.433  INFO 15640 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-01-23 14:54:13.037  INFO 15640 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:54:13.041  INFO 15640 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:54:13.041  INFO 15640 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:54:13.975  INFO 15640 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 14:54:14.014  INFO 15640 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:54:14.015  INFO 15640 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 14:54:14.322  INFO 15640 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 14:54:14.327  INFO 15640 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:54:14.327  INFO 15640 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 14:54:14.423  INFO 15640 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 14:54:14.457  INFO 15640 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 14:54:14.457  INFO 15640 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 15:04:36.953  INFO 15640 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 15:04:36.969  INFO 15640 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:04:36.969  INFO 15640 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 15:04:37.268  INFO 15640 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:04:37.279  INFO 15640 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:04:37.280  INFO 15640 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:04:37.387  INFO 15640 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 15:04:37.398  INFO 15640 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:04:37.398  INFO 15640 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 15:07:35.321  INFO 12480 --- [restartedMain] com.lsc.blog.BlogApplication             : Starting BlogApplication on LSC with PID 12480 (E:\code\java\blog\target\classes started by 26683 in E:\code\java\blog)
+2020-01-23 15:07:35.323  INFO 12480 --- [restartedMain] com.lsc.blog.BlogApplication             : The following profiles are active: pro
+2020-01-23 15:07:37.299  WARN 12480 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-23 15:07:38.502  WARN 12480 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-23 15:07:39.023  INFO 12480 --- [restartedMain] com.lsc.blog.BlogApplication             : Started BlogApplication in 4.001 seconds (JVM running for 4.793)
+2020-01-23 15:07:42.314  INFO 12480 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 15:07:42.436  INFO 12480 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:07:42.436  INFO 12480 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 15:07:43.083  INFO 12480 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:07:43.095  INFO 12480 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:07:43.095  INFO 12480 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:07:43.173  INFO 12480 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 15:07:43.224  INFO 12480 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:07:43.224  INFO 12480 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 15:13:13.775  INFO 12480 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.AboutShowController.about', args=[]}
+2020-01-23 15:13:13.777  INFO 12480 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:13.778  INFO 12480 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Result:{}about
+2020-01-23 15:13:14.414  INFO 12480 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:13:14.418  INFO 12480 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:14.418  INFO 12480 --- [http-nio-8081-exec-9] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:13:19.090  INFO 12480 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-23 15:13:19.109  WARN 12480 --- [http-nio-8081-exec-8] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 15:13:19.118  WARN 12480 --- [http-nio-8081-exec-8] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 15:13:19.122  INFO 12480 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:19.122  INFO 12480 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-01-23 15:13:19.436  INFO 12480 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:13:19.445  INFO 12480 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:19.446  INFO 12480 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:13:22.168  INFO 12480 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-01-23 15:13:22.181  INFO 12480 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:22.181  INFO 12480 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Result:{}types
+2020-01-23 15:13:22.433  INFO 12480 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:13:22.437  INFO 12480 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:22.437  INFO 12480 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:13:23.527  INFO 12480 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-23 15:13:23.540  INFO 12480 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:23.540  INFO 12480 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-01-23 15:13:23.833  INFO 12480 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:13:23.838  INFO 12480 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:23.838  INFO 12480 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:13:24.860  INFO 12480 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 15:13:24.872  INFO 12480 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:24.872  INFO 12480 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 15:13:25.126  INFO 12480 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:13:25.132  INFO 12480 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:25.133  INFO 12480 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:13:25.207  INFO 12480 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 15:13:25.212  INFO 12480 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:25.212  INFO 12480 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 15:13:59.211  INFO 12480 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[25, {}]}
+2020-01-23 15:13:59.225  INFO 12480 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:59.225  INFO 12480 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 15:13:59.507  INFO 12480 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:13:59.510  INFO 12480 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:59.510  INFO 12480 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:13:59.598  INFO 12480 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[25, {}]}
+2020-01-23 15:13:59.608  INFO 12480 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:13:59.608  INFO 12480 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 15:18:08.457  INFO 12480 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.AboutShowController.about', args=[]}
+2020-01-23 15:18:08.458  INFO 12480 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:18:08.459  INFO 12480 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}about
+2020-01-23 15:18:08.716  INFO 12480 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:18:08.719  INFO 12480 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:18:08.719  INFO 12480 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:18:31.644  INFO 12480 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.ArchiveShowController.archives', args=[{}]}
+2020-01-23 15:18:31.665  INFO 12480 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:18:31.665  INFO 12480 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Result:{}archives
+2020-01-23 15:18:31.933  INFO 12480 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:18:31.937  INFO 12480 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:18:31.937  INFO 12480 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:18:32.503  INFO 12480 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-01-23 15:18:32.869  INFO 12480 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:18:32.869  INFO 12480 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Result:{}tags
+2020-01-23 15:18:33.153  INFO 12480 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:18:33.157  INFO 12480 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:18:33.157  INFO 12480 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:18:33.176  INFO 12480 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-01-23 15:18:33.188  INFO 12480 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:18:33.188  INFO 12480 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Result:{}types
+2020-01-23 15:18:33.424  INFO 12480 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:18:33.427  INFO 12480 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:18:33.427  INFO 12480 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:18:33.651  INFO 12480 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-23 15:18:33.658  INFO 12480 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:18:33.658  INFO 12480 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-01-23 15:18:33.900  INFO 12480 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:18:33.903  INFO 12480 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:18:33.903  INFO 12480 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:23:17.561  INFO 12120 --- [restartedMain] com.lsc.blog.BlogApplication             : Starting BlogApplication on LSC with PID 12120 (E:\code\java\blog\target\classes started by 26683 in E:\code\java\blog)
+2020-01-23 15:23:17.563  INFO 12120 --- [restartedMain] com.lsc.blog.BlogApplication             : The following profiles are active: pro
+2020-01-23 15:23:18.900  WARN 12120 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-01-23 15:23:19.877  WARN 12120 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-23 15:23:20.320  INFO 12120 --- [restartedMain] com.lsc.blog.BlogApplication             : Started BlogApplication in 3.007 seconds (JVM running for 3.679)
+2020-01-23 15:23:28.642  INFO 12120 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-23 15:23:28.711  WARN 12120 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 15:23:28.720  WARN 12120 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-01-23 15:23:28.726  INFO 12120 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:23:28.727  INFO 12120 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-01-23 15:23:29.407  INFO 12120 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:23:29.413  INFO 12120 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:23:29.413  INFO 12120 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:23:40.982  WARN 12120 --- [http-nio-8081-exec-8] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [167] milliseconds.
+2020-01-23 15:34:20.326  INFO 12120 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-23 15:34:20.347  INFO 12120 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:34:20.348  INFO 12120 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-01-23 15:34:29.060  INFO 12120 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:34:29.064  INFO 12120 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:34:29.064  INFO 12120 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:34:54.856  INFO 12120 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.AboutShowController.about', args=[]}
+2020-01-23 15:34:54.858  INFO 12120 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:34:54.858  INFO 12120 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Result:{}about
+2020-01-23 15:34:55.117  INFO 12120 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:34:55.120  INFO 12120 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:34:55.120  INFO 12120 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:35:14.007  INFO 12120 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-01-23 15:35:14.015  INFO 12120 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:35:14.015  INFO 12120 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-01-23 15:35:14.258  INFO 12120 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:35:14.261  INFO 12120 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:35:14.261  INFO 12120 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:35:16.775  INFO 12120 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[23, {}]}
+2020-01-23 15:35:16.833  INFO 12120 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:35:16.833  INFO 12120 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-01-23 15:35:17.179  INFO 12120 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-01-23 15:35:17.184  INFO 12120 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:35:17.185  INFO 12120 --- [http-nio-8081-exec-7] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-01-23 15:35:17.270  INFO 12120 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[23, {}]}
+2020-01-23 15:35:17.340  INFO 12120 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:35:17.341  INFO 12120 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-01-23 15:35:31.757  INFO 12120 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.post', args=[Comment{id=null, nickname='李书畅', email='2668304028@qq.com', content='?', avatar='null', createTime=null, blog=blog{id=23, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null}, replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@84328a9]}
+2020-01-23 15:35:31.799  INFO 12120 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:35:31.799  INFO 12120 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Result:{}redirect:/comments/23
+2020-01-23 15:35:31.815  INFO 12120 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[23, {}]}
+2020-01-23 15:35:31.822  INFO 12120 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-01-23 15:35:31.823  INFO 12120 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList

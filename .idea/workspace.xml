@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84a072c9-a056-4274-a940-651f873d941f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WEagxGVIfVL3x4ELCjjYcP2O0p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\java\blog\src\main\resources" />
+      <recent name="E:\code\java\blog\src\main\resources\templates" />
+      <recent name="E:\code\java\blog\src\main\resources\templates\admin" />
+      <recent name="E:\code\java\blog\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lsc.blog.web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\java\blog\src\main\resources\static\images" />
+      <recent name="E:\code\java\blog\src\main\resources\i18n" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BlogApplication">
+    <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsc.blog.util.MD5Utils" />
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsc.blog.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarkdownUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lsc.blog.util.MarkdownUtils" />
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsc.blog.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lsc.blog.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MarkdownUtils" />
+        <item itemvalue="Application.MD5Utils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84a072c9-a056-4274-a940-651f873d941f" name="Default Changelist" comment="" />
+      <created>1578717322935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578717322935</updated>
+      <workItem from="1578717329188" duration="3418000" />
+      <workItem from="1578723022042" duration="2281000" />
+      <workItem from="1578726153641" duration="287000" />
+      <workItem from="1578805282194" duration="7957000" />
+      <workItem from="1578813278071" duration="151000" />
+      <workItem from="1578813444135" duration="1110000" />
+      <workItem from="1578814636787" duration="526000" />
+      <workItem from="1578818969679" duration="11000" />
+      <workItem from="1578881027388" duration="9281000" />
+      <workItem from="1578893646553" duration="6926000" />
+      <workItem from="1578972757972" duration="4076000" />
+      <workItem from="1579052495718" duration="9364000" />
+      <workItem from="1579139746786" duration="20236000" />
+      <workItem from="1579226322850" duration="19152000" />
+      <workItem from="1579314670705" duration="23569000" />
+      <workItem from="1579401278815" duration="18387000" />
+      <workItem from="1579572662452" duration="9682000" />
+      <workItem from="1579660118681" duration="20436000" />
+      <workItem from="1579758305336" duration="3292000" />
+      <workItem from="1579761745923" duration="8904000" />
+      <workItem from="1579936979224" duration="3000" />
+      <workItem from="1580469910076" duration="249000" />
+      <workItem from="1581082419643" duration="5307000" />
+      <workItem from="1581648933606" duration="14000" />
+      <workItem from="1582508574746" duration="212000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Assign_Data_Sources" timestamp="1579329054434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1579329054434" />
+    <state x="552" y="178" key="#Project_Structure" timestamp="1578814954269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1578814954269" />
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579574578855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579574578855" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579320028617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579320028617" />
+    <state x="638" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579061967380">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="638" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579061967380" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1579759171920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579759171920" />
+    <state x="644" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579764971973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579764971973" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582508809434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582508809434" />
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1581088258118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581088258118" />
+    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1581088258118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581088258118" />
+    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1581088258117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581088258117" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1581088258118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581088258118" />
+    <state width="1877" height="341" key="GridCell.Tab.1.bottom" timestamp="1581088258119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581088258119" />
+    <state width="1877" height="341" key="GridCell.Tab.1.center" timestamp="1581088258118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581088258118" />
+    <state width="1877" height="341" key="GridCell.Tab.1.left" timestamp="1581088258118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581088258118" />
+    <state width="1877" height="341" key="GridCell.Tab.1.right" timestamp="1581088258118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581088258118" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1579682022641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579682022641" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1579682022641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579682022641" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1579682022641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579682022641" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1579682022641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579682022641" />
+    <state x="509" y="159" key="SettingsEditor" timestamp="1582508785671">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="509" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582508785671" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582508575205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582508575205" />
+  </component>
+</project>

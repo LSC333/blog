@@ -1,0 +1,58 @@
+2020-02-07 21:59:25.488  INFO 15468 --- [restartedMain] com.lsc.blog.BlogApplication             : Starting BlogApplication on LSC with PID 15468 (E:\code\java\blog\target\classes started by 26683 in E:\code\java\blog)
+2020-02-07 21:59:25.501  INFO 15468 --- [restartedMain] com.lsc.blog.BlogApplication             : The following profiles are active: pro
+2020-02-07 21:59:27.183  WARN 15468 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 21:59:28.446  WARN 15468 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-07 21:59:29.607  INFO 15468 --- [restartedMain] com.lsc.blog.BlogApplication             : Started BlogApplication in 4.415 seconds (JVM running for 5.471)
+2020-02-07 22:00:04.578  INFO 15468 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-07 22:00:04.699  WARN 15468 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-07 22:00:04.718  WARN 15468 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-07 22:00:04.764  INFO 15468 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-02-07 22:00:04.765  INFO 15468 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-02-07 22:00:05.692  INFO 15468 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-02-07 22:00:05.696  INFO 15468 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-02-07 22:00:05.696  INFO 15468 --- [http-nio-8081-exec-8] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-02-07 22:00:07.971  INFO 15468 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/blog/24', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.blog', args=[24, {}]}
+2020-02-07 22:00:08.029  INFO 15468 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-02-07 22:00:08.029  INFO 15468 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}blog
+2020-02-07 22:00:08.391  INFO 15468 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-02-07 22:00:08.395  INFO 15468 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-02-07 22:00:08.395  INFO 15468 --- [http-nio-8081-exec-10] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-02-07 22:00:08.491  INFO 15468 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/24', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[24, {}]}
+2020-02-07 22:00:08.562  INFO 15468 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-02-07 22:00:08.563  INFO 15468 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-02-07 22:00:29.043  WARN 15468 --- [http-nio-8081-exec-6] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [176] milliseconds.
+2020-02-07 22:00:29.045  INFO 15468 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.post', args=[Comment{id=null, nickname='asdasdas', email='asdasd@163.com', content='adsdasd', avatar='null', createTime=null, blog=blog{id=24, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null}, replyComments=[], parentComment=Comment{id=36, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@6c6eee62]}
+2020-02-07 22:00:29.101  INFO 15468 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-02-07 22:00:29.101  INFO 15468 --- [http-nio-8081-exec-6] com.lsc.blog.aspect.LogAspect            : Result:{}redirect:/comments/24
+2020-02-07 22:00:29.122  INFO 15468 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/comments/24;jsessionid=5CCBCA2B9A5E10A1DDBC317B2A6ACD19', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.CommentController.comments', args=[24, {}]}
+2020-02-07 22:00:29.143  INFO 15468 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-02-07 22:00:29.143  INFO 15468 --- [http-nio-8081-exec-2] com.lsc.blog.aspect.LogAspect            : Result:{}blog :: commentList
+2020-02-07 22:02:11.926  INFO 1344 --- [main] com.lsc.blog.BlogApplicationTests        : Starting BlogApplicationTests on LSC with PID 1344 (started by 26683 in E:\code\java\blog)
+2020-02-07 22:02:11.930  INFO 1344 --- [main] com.lsc.blog.BlogApplicationTests        : The following profiles are active: pro
+2020-02-07 22:02:14.577  WARN 1344 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 22:02:16.937  WARN 1344 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-07 22:02:17.942  INFO 1344 --- [main] com.lsc.blog.BlogApplicationTests        : Started BlogApplicationTests in 6.417 seconds (JVM running for 7.323)
+2020-02-07 22:22:41.648  INFO 8996 --- [restartedMain] com.lsc.blog.BlogApplication             : Starting BlogApplication on LSC with PID 8996 (E:\code\java\blog\target\classes started by 26683 in E:\code\java\blog)
+2020-02-07 22:22:41.649  INFO 8996 --- [restartedMain] com.lsc.blog.BlogApplication             : The following profiles are active: pro
+2020-02-07 22:22:43.288  WARN 8996 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 22:22:44.361  WARN 8996 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-07 22:22:44.835  INFO 8996 --- [restartedMain] com.lsc.blog.BlogApplication             : Started BlogApplication in 3.444 seconds (JVM running for 4.119)
+2020-02-07 22:23:41.895  INFO 8996 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-07 22:23:41.967  WARN 8996 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-07 22:23:41.978  WARN 8996 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-07 22:23:41.986  INFO 8996 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-02-07 22:23:41.987  INFO 8996 --- [http-nio-8081-exec-1] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-02-07 22:23:42.671  INFO 8996 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-02-07 22:23:42.679  INFO 8996 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-02-07 22:23:42.679  INFO 8996 --- [http-nio-8081-exec-4] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-02-07 22:23:44.183  INFO 8996 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-07 22:23:44.192  INFO 8996 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-02-07 22:23:44.193  INFO 8996 --- [http-nio-8081-exec-3] com.lsc.blog.aspect.LogAspect            : Result:{}index
+2020-02-07 22:23:44.537  INFO 8996 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Request:{url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.lsc.blog.web.IndexController.newBlogs', args=[{}]}
+2020-02-07 22:23:44.541  INFO 8996 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : ------doAfter------
+2020-02-07 22:23:44.541  INFO 8996 --- [http-nio-8081-exec-5] com.lsc.blog.aspect.LogAspect            : Result:{}_fragments :: newBlogList
+2020-02-07 22:25:20.819  INFO 22136 --- [main] com.lsc.blog.BlogApplicationTests        : Starting BlogApplicationTests on LSC with PID 22136 (started by 26683 in E:\code\java\blog)
+2020-02-07 22:25:20.822  INFO 22136 --- [main] com.lsc.blog.BlogApplicationTests        : The following profiles are active: pro
+2020-02-07 22:25:23.216  WARN 22136 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 22:25:25.794  WARN 22136 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-07 22:25:26.893  INFO 22136 --- [main] com.lsc.blog.BlogApplicationTests        : Started BlogApplicationTests in 6.452 seconds (JVM running for 7.33)

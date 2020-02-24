@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84a072c9-a056-4274-a940-651f873d941f" name="Default Changelist" comment="" />
+    <list default="true" id="84a072c9-a056-4274-a940-651f873d941f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +43,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WEagxGVIfVL3x4ELCjjYcP2O0p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -164,12 +167,24 @@
       <workItem from="1580469910076" duration="249000" />
       <workItem from="1581082419643" duration="5307000" />
       <workItem from="1581648933606" duration="14000" />
-      <workItem from="1582508574746" duration="212000" />
+      <workItem from="1582508574746" duration="1890000" />
     </task>
+    <task id="LOCAL-00001" summary="0.1">
+      <created>1582509173117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582509173117</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Assign_Data_Sources" timestamp="1579329054434">
@@ -200,10 +215,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="644" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579764971973" />
+    <state x="457" y="110" key="CommitChangelistDialog2" timestamp="1582509155241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="457" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582509155241" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582508809434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582508809434" />
+    <state x="835" y="410" width="442" height="219" key="Github.ShareDialog" timestamp="1582510415037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="835" y="410" width="442" height="219" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582510415037" />
     <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1581088258118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
